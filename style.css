@@ -54,7 +54,14 @@ input::-webkit-inner-spin-button {
 }
 
 .leftSide h2 {
+    display: flex;
+    justify-content: space-between;
     color: var(--greyish-green);
+}
+
+.leftSide h2 span{
+    color: red;
+    display: none;
 }
 
 .bill {
