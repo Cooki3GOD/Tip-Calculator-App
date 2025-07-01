@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPLITTER</title>
+    <link rel="shortcut icon" href="./images/logo.svg" type="svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <img src="./images/logo.svg" alt="logo">
+
+    <div class="container">
+        <!-- LEFT SIDE -->
+        <div class="leftSide">
+            <div class="bill">
+                <h2>Bill</h2>
+                <input type="number" id="bill">
+            </div>
+            <div class="tip">
+                <button>5%</button>
+                <button>10%</button>
+                <button>15%</button>
+                <button>25%</button>
+                <button>50%</button>
+                <input type="number" id="own">
+            </div>
+            <div class="people">
+                <h2>Number Of People</h2>
+                <input type="number" id="people">
+            </div>
+        </div>
+        <!-- END OF LEFT SIDE -->
+
+        <!-- RIGHT SIDE -->
+        <div class="rightSide">
+            <div class="top">
+                <div class="display">
+                    <div class="leftDisplay">
+                        <h3>Tip ammount</h3>
+                        <p>/ person</p>
+                    </div>
+                    <div class="rightDisplay">
+                        <h2>$0.00</h2>
+                    </div>
+                </div>
+                <div class="display">
+                    <div class="leftDisplay">
+                        <h3>Total</h3>
+                        <p>/ person</p>
+                    </div>
+                    <div class="rightDisplay">
+                        <h2>$0.00</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <button type="reset">RESET</button>
+            </div>
+        </div>
+
+        <!-- END OF RIGHT SIDE -->
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
